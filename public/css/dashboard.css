@@ -547,7 +547,7 @@ ul.nav-tabs li a {
     right: 0;
     height: 366px;
     width: auto;
-    background: url("../plugins/moderntheme/images/sidebar/sidebar-bgimage-table.png") center center;
+    background: url("/images/sidebar-bgimage-table.png") center center;
     opacity: .1;
     z-index: -1; }
 
@@ -647,7 +647,7 @@ ul.nav-tabs li a {
 /* Page Title background images */
 .page-title {
   min-height: 160px;
-  background: url("../plugins/moderntheme/images/pagetitle/pagetitle-clouds.jpg") center center no-repeat;
+  background: url("/images/pagetitle-clouds.jpg") center center no-repeat;
   background-size: cover; }
   .page-title h3 {
     color: #ffffff;
