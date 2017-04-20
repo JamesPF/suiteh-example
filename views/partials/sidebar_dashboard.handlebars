@@ -1,0 +1,21 @@
+<!-- Sidebar start -->
+<div class="page-sidebar sidebar">
+  <div class="page-sidebar-inner slimscroll">
+    <ul class="menu accordion-menu">
+      <li<% if .dashboard_active_path | eq "sites" %> class="active"<% end %>>
+        <a href="/sites" class="waves-effect waves-button">
+          <span class="menu-icon fa fa-globe"></span>
+          <p>My Sites</p>
+        </a>
+      </li>
+      <li <% if .dashboard_active_path | eq "users" %> class="active"<% end %>>
+        <a href="/users" class="waves-effect waves-button">
+          <span class="menu-icon fa fa-user"></span>
+          <p>Users</p>
+        </a>
+      </li>
+    </ul>
+    <div class="bg-graphic"></div>
+  </div><!-- Page Sidebar Inner -->
+</div><!-- Page Sidebar end -->
+<% end %>
